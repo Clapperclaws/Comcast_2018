@@ -1,0 +1,100 @@
+\begin{thebibliography}{10}
+
+\bibitem{huang2008practical}
+Yiyi Huang, Nick Feamster, and Renata Teixeira.
+\newblock Practical issues with using network tomography for fault diagnosis.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 38(5):53--58, 2008.
+
+\bibitem{cunha2009measurement}
+{\'I}talo Cunha, Renata Teixeira, Nick Feamster, and Christophe Diot.
+\newblock Measurement methods for fast and accurate blackhole identification
+  with binary tomography.
+\newblock In {\em Proceedings of the 9th ACM SIGCOMM conference on Internet
+  measurement}, pages 254--266. ACM, 2009.
+
+\bibitem{sundaresan2011broadband}
+Srikanth Sundaresan, Walter De~Donato, Nick Feamster, Renata Teixeira, Sam
+  Crawford, and Antonio Pescap{\`e}.
+\newblock Broadband internet performance: a view from the gateway.
+\newblock In {\em ACM SIGCOMM computer communication review}, volume~41, pages
+  134--145. ACM, 2011.
+
+\bibitem{sundaresan2012measuring}
+Srikanth Sundaresan, Walter De~Donato, Nick Feamster, Renata Teixeira, Sam
+  Crawford, and Antonio Pescap{\`e}.
+\newblock Measuring home broadband performance.
+\newblock {\em Communications of the ACM}, 55(11):100--109, 2012.
+
+\bibitem{sundaresan2015locating}
+Srikanth Sundaresan, Nick Feamster, and Renata Teixeira.
+\newblock Locating throughput bottlenecks in home networks.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 44(4):351--352,
+  2015.
+
+\bibitem{sundaresan2015measuring}
+Srikanth Sundaresan, Nick Feamster, and Renata Teixeira.
+\newblock Measuring the performance of user traffic in home wireless networks.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 305--317. Springer, 2015.
+
+\bibitem{sundaresan2016home}
+Srikanth Sundaresan, Nick Feamster, and Renata Teixeira.
+\newblock Home network or access link? locating last-mile downstream throughput
+  bottlenecks.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 111--123. Springer, 2016.
+
+\bibitem{sundaresan2013web}
+Srikanth Sundaresan, Nazanin Magharei, Nick Feamster, Renata Teixeira, and Sam
+  Crawford.
+\newblock Web performance bottlenecks in broadband access networks.
+\newblock In {\em ACM SIGMETRICS Performance Evaluation Review}, volume~41,
+  pages 383--384. ACM, 2013.
+
+\bibitem{sundaresan2011helping}
+Srikanth Sundaresan, Nick Feamster, Renata Teixeira, Anthony Tang, W~Keith
+  Edwards, Rebecca~E Grinter, Marshini Chetty, and Walter De~Donato.
+\newblock Helping users shop for isps with internet nutrition labels.
+\newblock In {\em Proceedings of the 2nd ACM SIGCOMM workshop on Home
+  networks}, pages 13--18. ACM, 2011.
+
+\bibitem{dicioccio2013measuring}
+Lucas DiCioccio, Renata Teixeira, and Catherine Rosenberg.
+\newblock Measuring home networks with homenet profiler.
+\newblock In {\em International Conference on Passive and Active Network
+  Measurement}, pages 176--186. Springer, 2013.
+
+\bibitem{joumblatt2011hostview}
+Diana Joumblatt, Renata Teixeira, Jaideep Chandrashekar, and Nina Taft.
+\newblock Hostview: Annotating end-host performance measurements with user
+  feedback.
+\newblock {\em ACM SIGMETRICS Performance Evaluation Review}, 38(3):43--48,
+  2011.
+
+\bibitem{luckie2008traceroute}
+Matthew Luckie, Young Hyun, and Bradley Huffaker.
+\newblock Traceroute probe method and forward ip path inference.
+\newblock In {\em Proceedings of the 8th ACM SIGCOMM conference on Internet
+  measurement}, pages 311--324. ACM, 2008.
+
+\bibitem{luckie2016bdrmap}
+Matthew Luckie, Amogh Dhamdhere, Bradley Huffaker, David Clark, et~al.
+\newblock bdrmap: inference of borders between ip networks.
+\newblock In {\em Proceedings of the 2016 Internet Measurement Conference},
+  pages 381--396. ACM, 2016.
+
+\bibitem{chun2003planetlab}
+Brent Chun, David Culler, Timothy Roscoe, Andy Bavier, Larry Peterson, Mike
+  Wawrzoniak, and Mic Bowman.
+\newblock Planetlab: an overlay testbed for broad-coverage services.
+\newblock {\em ACM SIGCOMM Computer Communication Review}, 33(3):3--12, 2003.
+
+\bibitem{raychaudhuri2005overview}
+Dipankar Raychaudhuri, Ivan Seskar, Max Ott, Sachin Ganu, Kishore Ramachandran,
+  Haris Kremo, Robert Siracusa, Hang Liu, and Manpreet Singh.
+\newblock Overview of the orbit radio grid testbed for evaluation of
+  next-generation wireless network protocols.
+\newblock In {\em Wireless Communications and Networking Conference, 2005
+  IEEE}, volume~3, pages 1664--1669. IEEE, 2005.
+
+\end{thebibliography}

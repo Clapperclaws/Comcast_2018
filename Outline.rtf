@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgenericrgb\c100000\c0\c0;\cssrgb\c0\c0\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 Comcast proposal\
+\
+Outline\
+\
+Title: Internet QoE detection in Home \cf2 Networks.\cf0 \
+Abstract\
+\
+
+\b 1. Introduction
+\b0 \
+First paragraph - background/motivation\
+\
+- Poor application performance is still persistent.\
+\
+- Average user - typically not tech-savvy - \cf3  \cf2 contact ISP\cf0 \
+\cf3 \
+\cf2 - This results in an increased cost of support on the ISP side\
+\cf0 \
+- ISP network is one of many networks along the path between end-users and content providers network.\
+\
+- Application performance depends on the performance of every network in the path - including Home Network!\
+\
+Second paragraph - what are the challenges?\
+\
+- Diagnosing the root cause of poor Internet QoE requires vantage point that can identify bottleneck along the end-to-end path - including impairments in Home network. \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 - Going from typical network QoS (RTT, throughput) to application QoE -\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+Third paragraph - what are we proposing\
+\
+- There is a system being developed between Inria & Princeton to Analyze traffic and infer application QoE. The current focus of the system is on video streaming applications - but the system is generalizable across different applications.\
+\
+- \cf2 We propose to complement the system with a module for bottleneck detection \cf0 - the objective of the detector is to answer the following question:  When service quality is poor, where is the bottleneck? \
+\
+- The goal is to identify performance bottlenecks in the home network, the access link, the interconnect links, or in other parts of the path.\
+\
+Fourth paragraph - what is the value of this proposal to Comcast?\
+\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 - The component can help identifying the root cause of problems.\cf4 \
+- Home users can then fix their own problems, when problems are within the home. \
+- When the problem lies at the ISP network, the tool can automatically generate a trouble ticket \cf3 (raise a support ticket)\cf4  (which will also contain a detailed report of the problem from within the home). \
+- Alternatively, when customers prefer to call the ISP, operators can access a detailed report with measurements from within the customer\'92s home and hence more quickly determine how to fix the problem. Ultimately, our tool should increase customer satisfaction while reducing the number of customer calls and the length of the remaining calls. \
+\cf2 - As a result, there will be a reduced cost of support on the side of the ISP\
+- Increase customer satisfaction thanks to faster Time to resolve support tickets\
+- Data generated could be an enabler for other Business Intelligence systems at the ISP \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 2. Related Work\
+\
+
+\b 3. Detailed Project Plan 
+\b0 \
+\
+- Bottleneck Detector module running at a box acting as a home getaway.\
+\
+- Detecting application flows and activate probing towards device and last mile node (using ICMP ping).\
+\
+- Use bdrmap to identify boundaries of different routing domains along the end-to-end path\
+\
+- Use Service-traceroute to collect delay measurement of different parts in the end-to-end path.\
+\
+- Design a method that automatically  correlates between application QoE and network-level performance metrics.\
+\
+- Design a data-driven approach that identifies the root cause poor Internet QoE\
+\
+
+\b 4. Budget
+\b0 \
+}
